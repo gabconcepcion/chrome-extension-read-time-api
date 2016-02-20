@@ -14,7 +14,7 @@
       "matches": ["http://*/*", "https://*/*"],
       "js": ["jquery-1.12.0.min.js", "onload.js"],
       "css": ["onload.css"],
-      "run_at": "document_start"
+      "run_at": "document_end"
     }
   ],
   "permissions": [

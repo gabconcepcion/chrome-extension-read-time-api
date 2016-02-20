@@ -9,8 +9,9 @@ function renderStatus(statusText) {
 		$status.fadeOut();
 	},3000);
 }
-document.addEventListener('DOMContentLoaded', function() {
+$(document).ready(function() {
     var url = document.location.href;
+    renderStatus('fetching Read Time info: ');
     $.ajax({
       url: 'https://klopets.com/readtime/'
       , type: 'GET'
